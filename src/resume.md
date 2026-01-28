@@ -5,10 +5,14 @@ output: pdf_document
 
 # {{ .Values.name }}
 
-{{ .Values.address }}  
-{{ .Values.phone }}  
-[{{ .Values.email }}](mailto:{{ .Values.email }})  
-[{{ .Values.website }}]({{ .Values.website }})
+::: columns
+{{ .Values.address }}\
+{{ .Values.phone }}\
+[{{ .Values.email }}](mailto:{{ .Values.email }})\
+[{{ .Values.website }}]({{ .Values.website }})\
+[https://gitlab.com/{{ .Values.git }}/{{ .Values.git }}](https://gitlab.com/{{ .Values.git }}/{{ .Values.git }})\
+[https://www.linkedin.com/in/{{ .Values.linkedin }}](https://www.linkedin.com/in/{{ .Values.linkedin }})
+:::
 
 {{ .Values.summary }}
 
