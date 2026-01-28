@@ -1,6 +1,9 @@
 ---
 geometry: margin=2cm
 output: pdf_document
+
+header-includes:
+- \pagenumbering{gobble}
 ---
 
 # {{ .Values.name }}
