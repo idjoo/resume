@@ -1,0 +1,4 @@
+include:
+  - project: "$CI_PROJECT_NAMESPACE/devops"
+    ref: master
+    file: "/$CI_PROJECT_NAME/gitlab-ci.yml"
