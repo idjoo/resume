@@ -3,7 +3,7 @@ steps:
     script: |
       helm template resume . > resume.yaml
 
-  - name: "mikefarah/yq"
+  - name: "linuxserver/yq"
     script: |
       yq -r '.markdown' resume.yaml > resume.md
 
