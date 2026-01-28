@@ -13,7 +13,8 @@ header-includes:
 {{ .Values.phone }}\
 [{{ .Values.email }}](mailto:{{ .Values.email }})\
 [{{ .Values.website }}]({{ .Values.website }})\
-[https://gitlab.com/{{ .Values.git }}/{{ .Values.git }}](https://gitlab.com/{{ .Values.git }}/{{ .Values.git }})\
+[https://github.com/{{ .Values.github }}](https://github.com/{{ .Values.github }})\
+[https://gitlab.com/{{ .Values.gitlab }}](https://gitlab.com/{{ .Values.gitlab }})\
 [https://www.linkedin.com/in/{{ .Values.linkedin }}](https://www.linkedin.com/in/{{ .Values.linkedin }})
 :::
 
