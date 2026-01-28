@@ -1,4 +1,4 @@
-name: Adrianus Vian
+name: Adrianus Vian Habirowo
 email: adrianusvian1@gmail.com
 phone: '+6285856564777'
 address: Jl. Segitiga No.7A, Joglo, Kembangan, Jakarta Barat
@@ -7,12 +7,12 @@ git: idjo
 linkedin: adr-vian
 
 summary: >
-  I'm a student at Bina Nusantara University, majoring in Cyber Security. My
-  love for Linux sparked in 2019, and since then, it's been my go-to operating
-  system. While my major revolves around Cyber Security, my true passion lies
-  in exploring Linux, honing skills in Infrastructure and Deployment. I also
-  thrive when immersed in Kubernetes, tinkering in my homelab, deploying
-  applications, and engaging in related hands-on endeavors.
+  A passionate DevOps and Infra Engineer. My love for Linux sparked in 2019,
+  and since then, it's been my go-to operating system. While my major revolves
+  around Cyber Security, my true passion lies in exploring Linux, honing skills
+  in Infrastructure and Deployment. I also thrive when immersed in Kubernetes,
+  tinkering in my homelab, deploying applications, and engaging in related
+  hands-on endeavors.
 
 educations:
   - school: Bina Nusantara University
@@ -21,7 +21,7 @@ educations:
     descriptions: []
 
 workExperiences:
-  - company: PT Adira Dinamika Multi Finance Tbk
+  - company: PT Adira Dinamika Multi Finance Tbk.
     jobTitle: Junior DevOps Engineer
     date: February 2022 -- December 2023
     descriptions:
@@ -48,7 +48,7 @@ workExperiences:
         Contributed to measurable improvements in efficiency, scalability, and
         reliability through strategic automation and optimization initiatives.
 
-  - company: PT Adira Dinamika Multi Finance Tbk
+  - company: PT Adira Dinamika Multi Finance Tbk.
     jobTitle: DevOps Engineer Intern
     date: February 2021 -- February 2022
     descriptions:
