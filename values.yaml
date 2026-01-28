@@ -25,13 +25,14 @@ workExperiences:
     date: May 2025 -- Present
     descriptions:
       - >-
-        **Smartfren** (Cloud Developer) - Infrastructure Landing Zone: Perform landing
+        **Smartfren** (Infrastructure) - Infrastructure Landing Zone: Perform landing
         zone for newly created GWS Organization.
       - >-
         **Smartfren** (Cloud Developer, SRE, Infra) - SARAH AI Agent:
           Build AI-powered customer care agent using **LangGraph** for **Agentic AI**.
           Create microservices APIs with **Clean Architecture** design patterns.
-          Create data ingestion pipeline to **Vertex AI** and integrate with internal backend services.
+          Create data ingestion pipeline to **Vertex AI** and integrate with internal
+        backend services.
           Build infrastructure and CI/CD pipeline for deployment.
           Set up **Cloud Monitoring** for observability and system reliability.
       - >-
@@ -62,8 +63,22 @@ workExperiences:
         using **Playwright** automation for AI ingestion pipeline, serving as a search
         tool for AI agents while bypassing robot filters.
       - >-
-        **BNI** (Full Stack Engineer) - DIVA Chatbot: Develop frontend dashboard
-        features and backend services for BNI's internal employee chatbot application.
+        **BNI** (Full Stack Engineer) - DIVA Chatbot: Develop frontend dashboard features
+        and backend services for BNI's internal employee chatbot application.
+      - >-
+        **Orion Framework** (Framework Developer) - ML Deployment Framework:
+          Create a **Python** framework to simplify developing, testing, and deploying ML prediction services to **Google Cloud Vertex AI**.
+          Built with **FastAPI** and **Typer** CLI, featuring decorator-based predictor registration, preprocessor/postprocessor pipelines, and lifespan management.
+          Integrated with **Cloud Build**, **Artifact Registry**, and **Cloud Storage** for automated containerization and deployment.
+          Deployed and used in production by **Astra Financial** and **IDX** projects.
+      - >-
+        **Insureka** (DevOps Engineer) - GKE Migration:
+          Architect and deploy **Terraform** landing zone with 90+ custom modules for multi-environment GCP infrastructure.
+          Set up private **GKE 1.33** cluster in Jakarta region with **Workload Identity**, autoscaling, and **Cloud Armor** WAF protection.
+          Implement GitOps deployment using **Kustomize** for Insureka and MyTokoto platform services.
+          Build CI/CD pipelines with **GitHub Actions** using **Workload Identity Federation** for keyless authentication.
+          Deploy centralized logging with **ELK Stack** (Elasticsearch, Kibana, Logstash, Filebeat) via **Helm** and ECK operator.
+          Configure **Envoy Gateway** with **cert-manager** for ingress and automated TLS certificates.
   - company: PT Adira Dinamika Multi Finance Tbk.
     jobTitle: Junior DevOps Engineer
     date: February 2022 -- December 2023
@@ -127,18 +142,18 @@ certifications:
     date: November 01, 2022
   - name: Google Cloud Certified Professional Cloud Architect
     date: June 07, 2024
-  - name: Google Cloud Certified Professional Cloud Developer
-    date: July 24, 2024
   - name: Google Cloud Certified Professional Security Engineer
     date: June 13, 2024
   - name: Google Cloud Certified Professional Google Workspace Administrator
     date: July 17, 2024
-  - name: Google Cloud Certified Professional Machine Learning Engineer
-    date: April 24, 2025
-  - name: Google Cloud Certified Professional Cloud DevOps Engineer
-    date: April 22, 2025
+  - name: Google Cloud Certified Professional Cloud Developer
+    date: July 24, 2024
   - name: Google Cloud Certified Professional Cloud Database Engineer
     date: April 21, 2025
+  - name: Google Cloud Certified Professional Cloud DevOps Engineer
+    date: April 22, 2025
+  - name: Google Cloud Certified Professional Machine Learning Engineer
+    date: April 24, 2025
 
 trainings:
   - name: AWS Academy Graduate - AWS Academy Cloud Foundations
