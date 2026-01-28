@@ -1,0 +1,2 @@
+markdown: |
+  {{- tpl ($.Files.Get "src/resume.md") . | nindent 2 }}
