@@ -3,7 +3,7 @@ geometry: margin=2cm
 output: pdf_document
 ---
 
-**{{ .Values.name }}** 
+# {{ .Values.name }}
 
 {{ .Values.address }}  
 {{ .Values.phone }}  
@@ -34,11 +34,11 @@ output: pdf_document
 
 ## Technical Skills
 
-{{- $skills := list }}
+::: columns
 {{- range .Values.technicalSkills }}
-    {{ $skills = printf "%s (%s)" .name .level | append $skills }}
+  - {{ .name }} ({{ .level }})
 {{- end }}
-{{ join ", " $skills }}
+:::
 
 ## Certifications
 
