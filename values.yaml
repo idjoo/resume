@@ -26,9 +26,9 @@ workExperiences:
     date: February 2022 -- December 2023
     descriptions:
       - >-
-        spearheaded infrastructure automation initiatives using Jenkins,
-        Docker, Kubernetes, and ArgoCD, resulting in significantly faster and
-        more reliable deployments.
+        creating deployment automation using Jenkins, Docker, Kubernetes, and
+        ArgoCD, resulting in significantly faster and more reliable
+        deployments.
       - >-
         orchestrated deployment pipelines that streamlined the release process,
         enhancing efficiency and reducing time-to-market.
