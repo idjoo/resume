@@ -72,27 +72,15 @@ workExperiences:
         automation process.
 
 technicalSkills:
-  # level:
-  # - beginner
-  # - intermidiate
-  # - proficient
-  # - advanced
-  - name: linux
-    level: advanced
-  - name: golang
-    level: intermidiate
-  - name: kubernetes
-    level: advanced
-  - name: jenkins
-    level: proficient
-  - name: container
-    level: proficient
-  - name: GCP
-    level: intermidiate
-  - name: AWS
-    level: intermidiate
-  - name: Ali Cloud
-    level: intermidiate
+  - linux
+  - golang
+  - python
+  - kubernetes
+  - jenkins
+  - argocd
+  - GCP
+  - AWS
+  - Ali Cloud
 
 certifications:
   - name: AWS Certified Cloud Practitioner
