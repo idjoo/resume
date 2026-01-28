@@ -29,7 +29,6 @@
             venvDir = ".venv";
 
             packages = [
-              pkgs.kubernetes-helm
               pkgs.yq-go
               pkgs.pandoc
               pkgs.texliveSmall
@@ -42,7 +41,6 @@
                   pkgs.libz
                 ]
               }
-              source .venv/bin/activate
             '';
           };
         }
