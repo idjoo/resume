@@ -16,68 +16,68 @@ summary: >
 
 educations:
   - school: Bina Nusantara University
-    degree: Undergraduate
-    date: 2019 -- Present
+    degree: Bachelor's degree
+    date: 2019 -- 2024
     descriptions: []
 
 workExperiences:
-  - company: PT Adira Dinamika Multifinance Tbk
+  - company: PT Adira Dinamika Multi Finance Tbk
     jobTitle: Junior DevOps Engineer
     date: February 2022 -- December 2023
     descriptions:
       - >-
-        creating deployment automation using Jenkins, Docker, Kubernetes, and
+        Creating deployment automation using Jenkins, Docker, Kubernetes, and
         ArgoCD, resulting in significantly faster and more reliable
         deployments.
       - >-
-        orchestrated deployment pipelines that streamlined the release process,
+        Orchestrated deployment pipelines that streamlined the release process,
         enhancing efficiency and reducing time-to-market.
       - >-
-        collaborated effectively with developers and operations teams to ensure
+        Collaborated effectively with developers and operations teams to ensure
         seamless integration of infrastructure and applications.
       - >-
-        standardized deployment and infrastructure configurations to promote
+        Standardized deployment and infrastructure configurations to promote
         consistency and reduce configuration drift.
       - >-
-        developed automation tools and scripts to automate manual tasks, saving
+        Developed automation tools and scripts to automate manual tasks, saving
         time and effort while minimizing errors.
       - >-
-        proactively monitored and troubleshooted infrastructure issues,
+        Proactively monitored and troubleshooted infrastructure issues,
         ensuring high system uptime and availability.
       - >-
-        contributed to measurable improvements in efficiency, scalability, and
+        Contributed to measurable improvements in efficiency, scalability, and
         reliability through strategic automation and optimization initiatives.
 
-  - company: PT Adira Dinamika Multifinance Tbk
+  - company: PT Adira Dinamika Multi Finance Tbk
     jobTitle: DevOps Engineer Intern
     date: February 2021 -- February 2022
     descriptions:
       - >-
-        gained valuable hands-on experience in infrastructure management,
+        Gained valuable hands-on experience in infrastructure management,
         automation practices, and the collaborative DevOps culture.
       - >-
-        developed kubernetes skills and honed problem-solving and communication
+        Developed kubernetes skills and honed problem-solving and communication
         abilities.
       - >-
-        contributed to CI/CD setup and implementation, assisting with pipeline
+        Contributed to CI/CD setup and implementation, assisting with pipeline
         configuration and testing.
       - >-
-        proactively monitored systems and documented procedures, ensuring
+        Proactively monitored systems and documented procedures, ensuring
         operational efficiency and knowledge transfer.
       - >-
-        shadowed experienced engineers and actively participated in team
+        Shadowed experienced engineers and actively participated in team
         discussions, learning best practices and gaining valuable insights.
       - >-
-        successfully develop anchor to help teammates in provisioning
+        Successfully develop anchor to help teammates in provisioning
         automation process.
 
 technicalSkills:
-  - linux
-  - golang
-  - python
-  - kubernetes
-  - jenkins
-  - argocd
+  - Linux
+  - Golang
+  - Python
+  - Kubernetes
+  - Jenkins
+  - Argocd
   - GCP
   - AWS
   - Ali Cloud
