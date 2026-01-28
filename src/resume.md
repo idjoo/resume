@@ -31,16 +31,18 @@ output: pdf_document
 {{- range .Values.workExperiences }}
 - {{ .date }}, **{{ .jobTitle }}** at {{ .company }}
 
+  ::: columns
   {{- range .descriptions }}
   - {{ . }}
   {{- end }}
+  :::
 {{- end }}
 
 ## Technical Skills
 
-::: columns
+::: three-columns
 {{- range .Values.technicalSkills }}
-  - {{ .name }} ({{ .level }})
+- {{ . }}
 {{- end }}
 :::
 
