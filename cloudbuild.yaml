@@ -27,7 +27,8 @@ steps:
 artifacts:
   objects:
     location: gs://ember.idjo.cc/documents
-    paths: resume.pdf
+    paths:
+    - resume.pdf
 
 options:
   logging: CLOUD_LOGGING_ONLY
