@@ -1,0 +1,34 @@
+steps:
+  - name: "alpine/helm"
+    entrypoint: helm
+    args:
+      - "template"
+      - "resume"
+      - "."
+      - ">"
+      - "resume.yaml"
+
+  - name: "mikefarah/yq"
+    entrypoint: yq
+    args:
+      - "-r"
+      - "'.markdown'"
+      - "resume.yaml"
+      - ">"
+      - "resume.md"
+
+  - name: "pandoc/latex"
+    entrypoint: pandoc
+    args:
+      - "resume.md"
+      - "-o"
+      - "resume.pdf"
+
+artifacts:
+  objects:
+    location: gs://ember.idjo.cc/documents
+    paths: resume.pdf
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+  dynamic_substitutions: true
